@@ -45,11 +45,15 @@ body {
   left: 95%;
   bottom: 97%;
   cursor: pointer;
-  background-color: green;
+  background-color: rgba(200, 200, 200, 0.4);
   border: none;
   text-decoration: none;
   display: inline-block;
   border-radius: 75%;
+}
+
+.button:hover {
+  background-color: rgba(170, 170, 170, 1);
 }
 
 img {
