@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webpage displaying the NASA's image of the day and its data</title>
+  <link rel="stylesheet" href="style_sheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="loadData()">
+  <div id="white_box">
+    <h1 class="div_content">NASA: APOD Showcase</h1>
+    <div id="image-container">
+      <img id="space_image" src="default.jpg" alt="NASA's image of the day">
+      <input type="button" onclick="redirect()" class="button"><i class="fa fa-arrow"></i></button>
+    </div>
+    <div id="text">
+    <div>
+      <h6 class="text">Title</h6>
+      <hr class="rounded">
+      <p class="text" id="title"></p>
+    </div>
+    <div>
+      <h6 class="text">Date</h6>
+      <hr class="rounded">
+      <p class="text" id="date"></p>
+    </div>
+    <div>
+      <h6 class="text">Explanation</h6>
+      <hr class="rounded">
+      <p class="text" id="explanation"></p>
+    </div>
+  </div>
+  </div>
+  <script src="responsive.js"></script>
+</body>
+</html>
