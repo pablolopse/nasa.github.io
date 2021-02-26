@@ -56,6 +56,10 @@ body {
   background-color: rgba(170, 170, 170, 1);
 }
 
+.text {
+  margin-top: 2px;
+}
+
 img {
   border: 0px solid transparent;
   border-radius: 1vw;
